@@ -202,8 +202,8 @@ blockquote {
 #home {
     no-repeat center center fixed;
     background-size: cover;
-    /*text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
-    text-align: center;*/
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .top-video {
@@ -292,16 +292,17 @@ blockquote {
 }
 
 .content-section .thumbnail * {
-    transition: all .25s;
+    transition: all .50s;
 }
 
 .content-section .thumbnail h4 {
-    font-size: 19px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
 }
 
 .content-section .thumbnail p {
-    line-height: 24px;
+    line-height: 20px;
 }
 
 .content-section .thumbnail:hover h4, .content-section .thumbnail:hover p {
@@ -375,7 +376,6 @@ a.btn-default {
 a.btn-default i {
     display: block;
     float: left;
-    position: absolute;
     left: 12px;
     top: 10px;
     font-size: 24px;
