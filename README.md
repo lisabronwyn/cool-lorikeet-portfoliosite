@@ -2,14 +2,6 @@
 
 You can find my site live at http://www.lisabronwyn.com/lg
 
-## Challenge Rating
-
-This goal will likely be within your ZPD if you...
-
-- Can use Google to find relevant resources
-- Are around your 30th week
-- Have mostly completed at least 2 projects that would serve well as portfolio pieces
-
 ## Description
 
 Create a good lookin' portfolio / resume site to help you get a job! Highlight your most impressive projects. To complete this goal, you'll need to have links to at least 2 live projects so part of your week might be spent cleaning up old projects and putting them on the internet.
