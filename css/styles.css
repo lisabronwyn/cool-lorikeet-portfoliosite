@@ -161,7 +161,7 @@ blockquote {
     color: #990000;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 268px) {
     .navbar-default {
         height: 100px;
     }
@@ -170,7 +170,7 @@ blockquote {
     }
     .navbar-header .navbar-brand {
         height: 70px;
-        padding: 40px 0 0 15px;
+        padding: 40px 0 40px 10px;
         font-size: 32px;
     }
     .navbar-default .navbar-nav>li>a {
@@ -188,14 +188,14 @@ blockquote {
     }
     .navbar-header .navbar-brand {
         height: 80px;
-        padding: 45px 0 0 15px;
+        padding: 45px 0 20px 15px;
         font-size: 48px;
     }
     .navbar-default .navbar-nav>li>a {
-        padding: 10px 25px 9px 0;
+        padding: 10px 25px 20px 0;
     }
     .navbar-header {
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 
@@ -257,11 +257,6 @@ blockquote {
     }
     #home h5 {
         font-size: 19px;
-    }
-    .navbar-header {
-        height: 80px;
-        padding: 45px 0 0 15px;
-        font-size: 24px;
 }
 }
 
