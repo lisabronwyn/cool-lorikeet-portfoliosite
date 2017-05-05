@@ -171,7 +171,7 @@ blockquote {
     .navbar-header .navbar-brand {
         height: 70px;
         padding: 40px 0 0 15px;
-        font-size: 44px;
+        font-size: 32px;
     }
     .navbar-default .navbar-nav>li>a {
         padding: 0px 20px 9px 0;
@@ -189,10 +189,13 @@ blockquote {
     .navbar-header .navbar-brand {
         height: 80px;
         padding: 45px 0 0 15px;
-        font-size: 58px;
+        font-size: 48px;
     }
     .navbar-default .navbar-nav>li>a {
         padding: 10px 25px 9px 0;
+    }
+    .navbar-header {
+        font-size: 60px;
     }
 }
 
@@ -210,7 +213,7 @@ blockquote {
     display: block;
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 15%;
     width: 100%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -221,7 +224,7 @@ blockquote {
 
 #home h1 {
     font-family: 'Advent Pro', sans-serif;
-    font-size: 72px;
+    font-size: 62px;
     color: #CC0000;
     display: inline-block;
     margin: 0;
@@ -247,41 +250,58 @@ blockquote {
     color: #555;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (max-width: 414px) and (min-width: 320px) {
     #home h1 {
-        font-size: 100px;
-        line-height: 114px;
+        font-size: 28px;
+        line-height: 80px;
     }
     #home h5 {
         font-size: 19px;
     }
-}
-
-@media screen and (min-width: 992px) {
-    #home h1 {
-        font-size: 90px;
-        margin-top: 70px;
-    }
-    #home h5 {
+    .navbar-header {
+        height: 80px;
+        padding: 45px 0 0 15px;
         font-size: 24px;
+}
+}
+
+@media only screen and (max-width: 992px) and (min-width: 415px) {
+    #home h1 {
+        font-size: 55px;
+        margin-top: 70px;
+        padding: 45px 0 0 15px;
+
+    }
+    #home h5 {
+        font-size: 44px;
+    }
+    .navbar-header {
+        height: 80px;
+        padding: 45px 0 0 15px;
+        font-size: 34px;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media only screen (min-width: 1200px) {
     #home h1 {
-        font-size: 96px;
+        font-size: 76px;
         line-height: 134px;
+        padding: 30px 0 20px 15px;
     }
     #home h5 {
-        font-size: 28px;
+        font-size: 60px;
+    }
+    .navbar-header {
+        height: 80px;
+        padding: 45px 0 20px 15px;
+        font-size: 34px;
     }
 }
 
 /*--- ABOUT IMAGE ---*/
 
 .about-img {
-
-
+  padding: 70px;
 }
 /*--- PORTFOLIO ---*/
 
@@ -326,15 +346,15 @@ blockquote {
     width: 100%;
     transition: all .35s;
     opacity: 0;
-    width: 86px;
-    height: 86px;
+    width: 43px;
+    height: 43px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     border-radius: 50%;
     background: transparent;
-    border: 3px solid transparent;
+    border: 2px solid transparent;
 }
 
 .content-section .thumbnail:hover:after {
